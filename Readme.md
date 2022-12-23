@@ -20,6 +20,6 @@ Namely, they are:
 
 [TextRL](https://github.com/voidful/TextRL)
 
-[minRLHF](https://github.com/thomfoster/minRLHF)
+[minRLHF](https://github.com/thomfoster/minRLHF) (sucks because this hard-to-install dependency "[torch-discounted-cumsum](https://github.com/toshas/torch-discounted-cumsum)")
 
 [PaLM](https://github.com/lucidrains/PaLM-pytorch) has one active developer working on [PaLM-RLHF](https://github.com/lucidrains/PaLM-rlhf-pytorch). Before that, you can just train your own PaLM model first since it is rare to see one.
