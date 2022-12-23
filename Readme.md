@@ -13,3 +13,11 @@ Steps:
 5. Repeat the loop
 
 Note: this has been achieved somehow at [this notebook](). The primary goal is to set a proper reward model, which will faithfully judge answers according to prompt and relevance (experienced! better be gpt-like instead of bert or sentence transformer).
+
+I only find a few repos useful and others daunting (might still useful in some way!).
+
+Namely, they are:
+
+[TextRL](https://github.com/voidful/TextRL)
+
+[minRLHF](https://github.com/thomfoster/minRLHF)
