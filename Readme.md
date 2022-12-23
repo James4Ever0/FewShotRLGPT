@@ -12,7 +12,7 @@ Steps:
 4. Train a PPO-guided model from fine-tuned model
 5. Repeat the loop
 
-Note: this has been achieved somehow at [this notebook](). The primary goal is to set a proper reward model, which will faithfully judge answers according to prompt and relevance (experienced! better be gpt-like instead of bert or sentence transformer).
+Note: this has been achieved somehow at [this notebook](https://github.com/James4Ever0/FewShotRLGPT/blob/main/textrl-rlhf-chatgpt-check-vram-usage.ipynb). The primary goal is to set a proper reward model, which will faithfully judge answers according to prompt and relevance (experienced! better be gpt-like instead of bert or sentence transformer).
 
 I only find a few repos useful and others daunting (might still useful in some way!).
 
