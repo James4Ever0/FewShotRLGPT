@@ -12,7 +12,7 @@ Steps:
 4. Train a PPO-guided model from fine-tuned model
 5. Repeat the loop
 
-Note: this has been achieved somehow at [this notebook](https://github.com/James4Ever0/FewShotRLGPT/blob/main/textrl-rlhf-chatgpt-check-vram-usage.ipynb). The primary goal is to set a proper reward model, which will faithfully judge answers according to prompt and relevance (experienced! better be gpt-like instead of bert or sentence transformer).
+Note: this has been achieved somehow at [this notebook](https://github.com/James4Ever0/FewShotRLGPT/blob/main/textrl-rlhf-chatgpt-check-vram-usage.ipynb). The primary goal is to set a proper reward model, which will faithfully judge answers according to prompt and relevance (**experienced! better be gpt-like (autoregressive) instead of bert or sentence transformer, or trained from scratch using some common reward model architecture found elsewhere?**).
 
 I only find a few repos useful and others daunting (might still useful in some way!).
 
@@ -21,3 +21,5 @@ Namely, they are:
 [TextRL](https://github.com/voidful/TextRL)
 
 [minRLHF](https://github.com/thomfoster/minRLHF)
+
+[PaLM](https://github.com/lucidrains/PaLM-pytorch) has one active developer working on [PaLM-RLHF](https://github.com/lucidrains/PaLM-rlhf-pytorch). Before that, you can just train your own PaLM model first since it is rare to see one.
